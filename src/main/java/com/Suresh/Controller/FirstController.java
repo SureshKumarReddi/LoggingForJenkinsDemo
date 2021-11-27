@@ -11,7 +11,7 @@ public class FirstController {
 	
 	public String getMessage() {
 		
-		System.out.println(" Now i am going to call Logging Messages ");
+		System.out.println(" Now i am going to call Logging Messages and we are testing for jenkins build ");
 		logger.trace(" Trace messge goes here ");
 		logger.debug(" Debugging messsgae ");
 		logger.info(" info getMessage () ");
